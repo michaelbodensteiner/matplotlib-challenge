@@ -1,6 +1,6 @@
 **Data used for pharmacological tests on mice is cleaned, and statistics for several predictors are found, utilizing pandas.**
 
-> In this study, 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of the drug of interest, Capomulin, versus the other treatment regimens.
+In this study, 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of the drug of interest, Capomulin, versus the other treatment regimens.
 
 Several analysis were performed to create visualizations to find key indications including:
 - Summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen
