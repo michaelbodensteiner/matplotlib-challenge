@@ -1,25 +1,23 @@
-Data used for pharmacological tests on mice is cleaned, and statistics for several predictors are found, utilizing pandas.
+**Data used for pharmacological tests on mice is cleaned, and statistics for several predictors are found, utilizing pandas.**
 
-In this study, 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed
-and measured. The purpose of this study was to compare the performance of the drug of interest, Capomulin, versus the other treatment regimens.
+> In this study, 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of the drug of interest, Capomulin, versus the other treatment regimens.
 
 Several analysis were performed to create visualizations to find key indications including:
-> Summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen
+- Summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen
 
-> Bar plot that shows the total number of measurements taken for each treatment regimen throughout the course of the study
+- Bar plot that shows the total number of measurements taken for each treatment regimen throughout the course of the study
 
-> Pie plot that shows the distribution of female or male mice in the study
+- Pie plot that shows the distribution of female or male mice in the study
 
-> Using Matplotlib, a box and whisker plots the final tumor volume for all four treatment regimens and highlight any potential outliers
+- Using Matplotlib, a box and whisker plots the final tumor volume for all four treatment regimens and highlight any potential outliers
 
-> Scatter plot of tumor volume versus mouse weight for the Capomulin treatment regimen
+- Scatter plot of tumor volume versus mouse weight for the Capomulin treatment regimen
 
-> Calculating the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment, a linear regression model is plotted on top of the previous scatter plot
+- Calculating the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment, a linear regression model is plotted on top of the previous scatter plot
 
 Important factors of the mice were dependent upon differing age, weight, and gender.
 
-
-
+*Here are some of the plots created:*
 
 ![Tumor_Volumes](https://user-images.githubusercontent.com/80362935/138531573-1d23a45e-0b4b-4187-96c7-0e34a1367025.png)
 
